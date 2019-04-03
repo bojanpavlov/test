@@ -1,0 +1,187 @@
+body{
+    background-color: blue;
+    margin: 5% 10%;
+    padding: 0;
+}
+.main{
+    background-color: white;
+    width: 100%;
+    height: 900px;
+    border-radius: 3%;
+
+}
+.header{
+    height: 80px;
+    /* background-color: grey; */
+    border-bottom: 1px solid black; 
+    /* position: fixed; */
+}
+.menu{
+    background-color: black;
+    height: 80px;
+}
+.logo ul{
+    margin: 0;
+    padding: 30px 100px;
+    
+}
+.logo ul li{
+    display: inline;
+    padding: 0px 40px;
+    
+}
+#head{
+    font-size: 25px;
+}
+.logo input{
+    border-color: blue;
+    height: 30px;
+}
+.logo button{
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+.body-1{
+    /* background-color: rgb(255, 0, 128); */
+    height: 320px;
+    /* padding-top: 10px; */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+}
+/* .picture img{
+    margin: 25px 30px;
+} */
+.picture{
+    /* background-color: white; */
+    width: 25%;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.picture img{
+    width: 200px;
+    height: 250px;
+    padding-top: 5px;
+}
+.info{
+    /* background-color: black; */
+    width: 60%;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* border-bottom: 1px solid black; */
+}
+ul{
+    list-style-type: none;
+    list-style-position: outside;
+    padding-left: 0px;
+}
+.body-2{
+    /* background-color: red; */
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+}
+.work{
+    border-top: 1px solid black;
+}
+.contact{
+    width: 60%;
+    height: 250px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.body-3{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+.general{
+    width: 60%;
+    height: 250px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    padding-top: 0px;
+}
+#name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.city{
+    padding-left: 50px;
+    font-size: 10px;
+    color: grey;
+}
+#work{
+    font-size: 15px;
+    color: blue;
+}
+.rank{
+    font-size: 10px;
+    color: grey;
+}
+.paraf span{
+    padding-left: 50px;
+    font-size: 17px;
+    color: grey;
+}
+#about{
+    padding-left: 30px;
+}
+button{
+    margin-left: 10px;
+    color: blue;
+    background-color: aquamarine;
+    border: none; 
+}
+.adres{
+    font-size: 15px;
+    color: grey;
+}
+.contact span{
+    margin-left: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+.conid{
+    font-size: 15px;
+    color: grey;
+    padding-top: 0px;
+}
+.basic{
+    font-size: 15px;
+    color: grey;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+#date{
+    margin-left: 20px;
+   
+}
+#gender{
+    margin-left: 24px;
+}
+#num{
+    margin-left: 25px;
+    color: blue;
+}
+#mail{
+    margin-left: 30px;
+    color: blue;
+}
+#web{
+    margin-left: 40px;
+    color: blue;
+}
+#NY{
+    margin-left: 75px;
+}
+.contact p{
+    font-weight: bold;
+}
